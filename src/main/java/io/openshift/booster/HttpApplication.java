@@ -1,3 +1,4 @@
+
 package io.openshift.booster;
 
 import io.vertx.core.AbstractVerticle;
@@ -11,7 +12,7 @@ import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 
 public class HttpApplication extends AbstractVerticle {
 
-  protected static final String template = "Hello, %s!, is it me you're looking for";
+  protected static final String template = "Hello, %s!, is it me you're looking for?";
 
   @Override
   public void start(Future<Void> future) {
